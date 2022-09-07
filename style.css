@@ -1,0 +1,118 @@
+/* .container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+} */
+.row {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  background-image: url("רקע בית.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  background-color: rgb(132, 195, 218);
+  color: black;
+  font-size: large;
+  font-family: arial;
+  text-align: center;
+}
+.card-img-top {
+  height: 100%;
+  border-radius: 8px;
+}
+.header {
+  text-align: center;
+  font-size: 20px;
+  font-family: arial;
+  background-color: rgb(165, 213, 231);
+  opacity: 80%;
+  height: 30px;
+}
+a {
+  margin: 30px 0;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+p {
+  font-family: arial;
+  text-align: center;
+}
+.gallerybox {
+  display: flex;
+  flex: 40%;
+  flex-direction: column;
+  padding: 1%;
+  margin: 0.5%;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: arial;
+}
+h5 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  display: inline-flex;
+}
+.gallery:hover {
+  border: 1px solid #777;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+.text {
+  text-align: center;
+}
+form {
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  font-size: 15px;
+  font-family: arial;
+  color: black;
+  background-color: rgb(165, 213, 231);
+  height: 30px;
+  opacity: 80%;
+}
+@media (max-width: 600px) {
+  .row {
+    flex-direction: row;
+  }
+}
+@media (max-width: 800px) {
+  .row {
+    flex-direction: row;
+  }
+}
+@media (max-width: 1200px) {
+  .row {
+    flex-direction: row;
+  }
+}
